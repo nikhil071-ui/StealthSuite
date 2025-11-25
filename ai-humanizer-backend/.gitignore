@@ -1,0 +1,17 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Very important to ignore)
+venv/
+.venv/
+env/
+
+# Environment Variables (CRITICAL: Protects your API Key)
+.env
+.env.local
+
+# IDE settings
+.vscode/
+.idea/

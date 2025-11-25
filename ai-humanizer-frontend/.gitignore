@@ -1,0 +1,48 @@
+# =========================
+# GLOBAL / OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# =========================
+# BACKEND (Python / FastAPI)
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (Critical to ignore)
+venv/
+.venv/
+env/
+
+# Environment Variables (NEVER commit this!)
+.env
+.env.local
+
+# =========================
+# FRONTEND (Next.js / Node)
+# =========================
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Local Environment Variables
+.env*.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vercel deployment config
+.vercel
